@@ -6,7 +6,7 @@
 Contains the logo, the link to [docs](https://talentexploit-wiki.netlify.app#docs) and the user management buttons
 
 #### Docs
-Written in [vitepress](https://vitepress.vuejs.org/), &copy;Dec 2022. Keep it updated
+Written in [vitepress](https://vitepress.vuejs.org/), &copy;Dec 2022. Keep it updated [lorem](https://talentexploit-wiki.netlify.app#lorem)
 
 
 ## Jobs
