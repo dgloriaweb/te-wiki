@@ -8,6 +8,7 @@ My long term goal is to make this a tool, where people can browse career paths, 
 Disclaimer: I never had practice in adult education, wasn't attending to any high level education, all I have is skills to code, a HR generalist certification and a will to make this world a better place by providing people a tool to find a career, where they can thrive and be useful for their community. -dgloria
 
 ## Dashboard / welcome page
+**Todo** Handle the case that some jobs can be done both remote and from office Jira: [TAL-420](https://talentexploit.atlassian.net/browse/TAL-420)
 
 ### Header
 Contains the logo, the link to [docs](https://talentexploit-wiki.netlify.app#docs) and the user management buttons
@@ -41,11 +42,16 @@ Lists out all the jobs so the user has the option to browse among those which ar
 By clicking on the job, the /jobs/$id page is targeted.
 
 ## Skills
+**Todo** Add some kind of filtering to the skills list Jira: [TAL-393](https://talentexploit.atlassian.net/browse/TAL-393)
 
+**Todo** Add driving
 
+**Todo** Rename driving to drivers Jira: [TAL-167](https://talentexploit.atlassian.net/browse/TAL-167)
 
 ## Jobs
 **Todo** Make job related skills editable Jira: [TAL-399](https://talentexploit.atlassian.net/browse/TAL-399)
+
+**Todo** record user actions on jobs Jira: [TAL-268](https://talentexploit.atlassian.net/browse/TAL-268)
 
 ### Show job
 URL: ```/jobs/{$id}/```
@@ -65,6 +71,7 @@ URL: ```/jobs/{$id}/edit```
 ### Add job
 URL: ```/addJob```
 
+
 ### Adding and editing similar jobs
 **Todo:** Manipulate similar jobs, keep it dynamic while the list of jobs changes
 
@@ -72,3 +79,18 @@ This is a complex problem. Finding similar jobs requires a thorough search in th
 
 Jira: [TAL-435](https://talentexploit.atlassian.net/browse/TAL-435) (later will be devided into smaller jobs)
 
+## Driving licenses
+**Todo** Implement 
+
+## Users
+**Todo** delete/disable use Jira: [TAL-370](https://talentexploit.atlassian.net/browse/TAL-370)
+
+**Todo** email confirmation Jira: [TAL-329](https://talentexploit.atlassian.net/browse/TAL-329)
+
+**Todo** reset password Jira: [TAL-305](https://talentexploit.atlassian.net/browse/TAL-305)
+
+**Todo** send email to admin if user registers or logs in Jira: [TAL-299](https://talentexploit.atlassian.net/browse/TAL-299)
+
+**Todo** setup admins Jira: [TAL-293](https://talentexploit.atlassian.net/browse/TAL-293)
+
+**Todo** delete a user if it's inactive Jira: [TAL-182](https://talentexploit.atlassian.net/browse/TAL-182)
