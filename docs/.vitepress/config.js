@@ -9,4 +9,15 @@ export default {
     nav: [],
     sidebar: [],
   },
+  themeConfig: {
+    sidebar: [
+      {
+        text: 'Guide',
+        items: [
+          { text: 'TE Docs', link: '/index' },
+          { text: 'TE API', link: '/api' }
+        ]
+      }
+    ]
+  }
 }

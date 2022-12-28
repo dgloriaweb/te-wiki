@@ -38,6 +38,10 @@ Some settings are permitted, some are restricted. For example if one wants to wo
 ## Match rates (All job rates)
 Lists out all the jobs so the user has the option to browse among those which aren't shown on the top 10. Eventually the list of jobs on the main page will show all jobs that have more than 90% match, but the user might want to explore other opportunities as well, or see their rates to some jobs they are interested in. 
 
+By clicking on the job, the /jobs/{$id} page is targeted, that, for admins have an Edit button
+
+*Edit button* 
+
 ## Skills
 
 

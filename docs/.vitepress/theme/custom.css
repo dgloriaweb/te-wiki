@@ -19,20 +19,33 @@ body {
 
 body {
     margin: 0;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #cde9f5;
 
 }
 
+.VPNavBar,
+.VPNavBar .content,
+.VPNavBarTitle {
+    background-color: #1986af !important;
+}
+
 .VPNavBar {
     box-shadow: 0 2px 40px 0 hsl(0deg 0% 6% / 5%);
-    background-color: #3fb4dd;
+}
+
+.title {
+    color: #cde9f5!important;
+}
+
+.VPSidebar {
+    background-color: #cde9f5 !important;
 }
 
 a {
     text-decoration: none;
     width: fit-content;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -82,7 +95,7 @@ a {
     box-sizing: border-box;
     border-width: 2px;
     border-style: outset;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
 
