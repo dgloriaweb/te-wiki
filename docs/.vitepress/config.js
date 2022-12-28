@@ -5,10 +5,7 @@ export default {
   lang: 'en-UK',
   title: 'Talentexploit Documentation',
   description: 'Documentation and API docs for talentexploit.com',
-  themeConfig: {
-    nav: [],
-    sidebar: [],
-  },
+
   themeConfig: {
     sidebar: [
       {
