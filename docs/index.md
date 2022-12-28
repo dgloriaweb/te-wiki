@@ -38,17 +38,32 @@ Some settings are permitted, some are restricted. For example if one wants to wo
 ## Match rates (All job rates)
 Lists out all the jobs so the user has the option to browse among those which aren't shown on the top 10. Eventually the list of jobs on the main page will show all jobs that have more than 90% match, but the user might want to explore other opportunities as well, or see their rates to some jobs they are interested in. 
 
-By clicking on the job, the /jobs/$id page is targeted, that, for admins have an Edit button.
-**Todo**: this can also be rearranged, pull all job pages under one umbrella, including show job, edit job and add job. Kinda manage jobs page. Maybe add a sidebar for admins that has all these grouped under manage jobs, and wherever you come from, it shows where you currently are. Name the pages accordingly.
-
-*Edit button* Opens /jobs/$id/edit page. Here currently only the work preferences can be edited.
-**Todo**: Make job related skills editable
+By clicking on the job, the /jobs/$id page is targeted.
 
 ## Skills
 
 
 
 ## Jobs
+**Todo** Make job related skills editable Jira: [TAL-399](https://talentexploit.atlassian.net/browse/TAL-399)
+
+### Show job
+URL: ```/jobs/{$id}/```
+
+*Edit button* Opens /jobs/$id/edit page. Here currently only the work preferences can be edited.
+
+**Todo** Pull all job pages under one umbrella, including show job, edit job and add job. Kinda manage jobs page. Maybe add a sidebar for admins that has all these grouped under manage jobs, and wherever you come from, it shows where you currently are. Name the pages accordingly. 
+
+**Todo** Add a back button to go to the main page 
+
+**Todo** Add a loading button while the api request runs Jira: [TAL-431](https://talentexploit.atlassian.net/browse/TAL-431)
+
+### Edit job
+URL: ```/jobs/{$id}/edit```
+
+
+### Add job
+URL: ```/addJob```
 
 ### Adding and editing similar jobs
 **Todo:** Manipulate similar jobs, keep it dynamic while the list of jobs changes
