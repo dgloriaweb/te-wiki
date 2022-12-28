@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+html,
+body {
+    font-family: "Open Sans";
+    font-size: 16px;
+    height: 100%;
+    color: black;
+}
+
+#app {
+    height: 100%
+}
+
+:root {
+    --main-blue: #3fb4dd;
+    --secondary-grey: #1986af;
+}
+
+body {
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+    background-color: #cde9f5;
+
+}
+
+.VPNavBar {
+    box-shadow: 0 2px 40px 0 hsl(0deg 0% 6% / 5%);
+    background-color: #3fb4dd;
+}
+
+a {
+    text-decoration: none;
+    width: fit-content;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.wrapper {
+    max-width: 1600px;
+    width: 90vw;
+    margin: auto;
+    margin-block: 1rem;
+    min-height: calc(100% - 160px);
+}
+
+.red-text {
+    color: red;
+}
+
+.green-text {
+    color: green;
+}
+
+.danger {
+    color: red;
+    background-color: rgb(255, 205, 205);
+}
+
+.success {
+    color: green;
+    background-color: rgb(205, 255, 205);
+}
+
+
+.btn {
+    border-radius: 7px;
+    padding: 6px 12px;
+    appearance: auto;
+    writing-mode: horizontal-tb;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: outset;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn_primary {
+    color: white;
+    background-color: var(--main-blue);
+    border-color: var(--main-blue);
+}
+
+.btn_secondary {
+    color: white;
+    background-color: var(--secondary-grey);
+    border-color: var(--secondary-grey);
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: bold;
+}
