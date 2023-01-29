@@ -3,16 +3,15 @@ export default {
 
   // These are app level configs.
   lang: 'en-UK',
-  title: 'Talentexploit Documentation',
-  description: 'Documentation and API docs for talentexploit.com',
+  title: 'Budgeter Documentation',
+  description: 'Documentation for budgeter.tech',
 
   themeConfig: {
     sidebar: [
       {
         text: 'Guide',
         items: [
-          { text: 'TE Docs', link: '/index' },
-          { text: 'TE API', link: '/api' }
+          { text: 'Documentation', link: '/index' }
         ]
       }
     ]
